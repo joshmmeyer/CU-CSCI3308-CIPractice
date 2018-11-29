@@ -1,0 +1,9 @@
+language : c
+script: make dep && make && make test
+compiler: 
+	-gcc
+dep:
+	sudo apt_get update
+	sudo apt-get install check
+
+
