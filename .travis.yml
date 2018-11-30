@@ -1,4 +1,4 @@
 language: c
-script: make dep && make && maketest
+script: make dep && make && make test
 compiler:
  -gcc
